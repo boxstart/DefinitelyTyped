@@ -7,6 +7,7 @@
 
 declare module "react-datagrid" {
     import DataGrid = ReactDataGrid.DataGrid;
+    namespace DataGrid {}
     export = DataGrid;
 }
 
